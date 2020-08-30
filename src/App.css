@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap');
+:root {
+    --primaryColor: #5fb7ca;
+    --primaryRGBA: rgba(0, 0, 0, 0.3);
+    --mainGrey: #fafafa;
+    --mainWhite: #fff;
+    --mainBlack: #222;
+    --mainTransition: all 0.3s ease-in-out;
+    --mainSpacing: 0.3rem;
+}
+
+.title-main {
+    color: var(--primaryColor)
+}
+
+.text-title {
+    font-family: "Monteserrst", sans-serif;
+    font-weight: bold;
+    letter-spacing: var(--mainSpacing);
+    text-transform: capitalize;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif !important;
+    background: var(--mainGrey) !important;
+    color: var(--mainBlack)
+}
